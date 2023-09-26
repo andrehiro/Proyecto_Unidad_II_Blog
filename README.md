@@ -15,9 +15,7 @@ Div secciones: coloque 3 articulos cada uno con un h2 y 2 parrafos.
 
 Footer: pie de pagina.
 
-Y por parte del css:
-
-Primero hice que el body tuviera un margen, usara la letra Comic Sans y su display fuera flex. Despues cambie el tamaño y alineacion de los titulos e hice que la primera imagen tuviera un tamaño de 100x100 pixeles, ademas ajuste el tamaño del boton y la barra de texto.
+Y por parte del css:Primero hice que el body tuviera un margen, usara la letra Comic Sans y su display fuera flex. Despues cambie el tamaño y alineacion de los titulos e hice que la primera imagen tuviera un tamaño de 100x100 pixeles, ademas ajuste el tamaño del boton y la barra de texto.
 
 Por otra parte le asigne a el header, main, aside, div y footer el tamaño que abarcarian en la pagina con el flex-basis, a el div tambien le puse un grid con 3 columnas.
 
