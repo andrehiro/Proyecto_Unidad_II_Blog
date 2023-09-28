@@ -1,0 +1,135 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Comic Sans MS';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#imagen2{
+    display: none;
+}
+
+#imagen1 {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 1%;
+}
+
+h1{
+    font-size: 300%;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 98%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+button {
+    width: 100%;
+    height: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+main {
+    flex-basis: 60%;
+}
+
+aside {
+    flex-basis: 35%;
+}
+
+footer {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: larger;
+}
+
+#secciones {
+    flex-basis: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5%;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+#secciones p{
+    font-size: 90%;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+    
+    header{
+        justify-content: center;
+    }
+
+    main {
+        flex-basis: 100%;
+    }
+
+    aside{
+        flex-basis: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10%;
+        max-width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    aside p{
+        margin-right: -10%;
+        margin-left: -10%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 720px) {
+    #imagen1{
+        display: none;
+    }
+
+    header{
+        display: block;
+    }
+
+    #imagen2{
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: auto;
+        margin-top: -5%;
+        margin-bottom: 5%;
+    }
+
+    h1{
+        font-size: 250%;
+        text-align: center;
+    }
+
+    main {
+        flex-basis: 100%;
+    }
+
+    aside{
+        flex-basis: 100%;
+    }
+
+    #secciones {
+        flex-basis: 100%;
+        display: block;
+    }
+}
